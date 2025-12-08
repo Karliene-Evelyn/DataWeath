@@ -15,40 +15,40 @@ Oferece dois modos de visualização:
 ```bash
 git clone https://github.com/Karliene-Evelyn/DataWeath.git
 cd DataWeath
+```
 1.2. Criar ambiente virtual (opcional, mas recomendado)
-bash
-Copiar código
+```bash
 python -m venv .venv
+```
 # Windows
+```bash
 .venv\Scripts\activate
+```
 # Linux/macOS
+```bash
 source .venv/bin/activate
+```
 1.3. Instalar bibliotecas principais
-bash
-Copiar código
+```
 pip install streamlit requests xarray plotly numpy shapely matplotlib
 pip install cfgrib
+```
 Obs.: O cfgrib precisa do ecCodes instalado na máquina.
 Se preferir instalar tudo automaticamente (incluindo Cartopy e ecCodes), use Conda:
-
-bash
-Copiar código
+```
 conda install -c conda-forge xarray cfgrib eccodes cartopy shapely matplotlib plotly requests streamlit
+```
 ✔️ 2. Executar a aplicação
 No diretório do projeto:
-
-bash
-Copiar código
+```bash
 streamlit run app.py
+```
 A aplicação abrirá no navegador em:
-
-arduino
-Copiar código
+```
 http://localhost:8501
-
+```
 ✔️ 3. Estrutura básica do projeto
-bash
-Copiar código
+```bash
 DataWeath/
 ├─ app.py                # Aplicação principal
 ├─ descricoes.py         # Dicionários com descrições de variáveis

@@ -53,3 +53,7 @@ DataWeath/
 ├─ app.py                # Aplicação principal
 ├─ descricoes.py         # Dicionários com descrições de variáveis
 └─ README.md
+```
+✔️ 4. Disponível online no Streamlit Cloud:
+```bash
+https://dataweath.streamlit.app/
